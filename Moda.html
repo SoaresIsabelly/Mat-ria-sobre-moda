@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matéria sobre moda</title>
+    <style>
+        /* RESET BÁSICO */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* CABEÇALHO */
+        .cabecalho {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 5%;
+            background: #FFF0F5;
+            box-shadow: 0 2px 5px rgba(255, 105, 180, 0.1);
+        }
+
+        /* LOGO */
+        .logo {
+            height: 50px;
+            /* Ajuste conforme sua logo */
+        }
+
+        /* BARRA DE PESQUISA */
+        .barra-pesquisa {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .barra-pesquisa input {
+            padding: 10px 40px 10px 15px;
+            border: 2px solid #FF69B4;
+            border-radius: 25px;
+            width: 250px;
+            font-size: 16px;
+            outline: none;
+            background: #FFE4E1;
+            color: #8B008B;
+        }
+
+        .barra-pesquisa input::placeholder {
+            color: #FF69B4;
+            opacity: 0.7;
+        }
+
+        .barra-pesquisa input:focus {
+            border-color: #C71585;
+            box-shadow: 0 0 8px #FFB6C1;
+        }
+
+        .lupa {
+            position: absolute;
+            right: 15px;
+            color: #FF1493;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- CABEÇALHO COM LOGO E BARRA -->
+    <header class="cabecalho">
+        <!-- LOGO -->
+        <a href="index.html">
+            <img src="logo.png" alt="Logo do Site" class="logo">
+        </a>
+
+        <!-- BARRA DE PESQUISA -->
+        <div class="barra-pesquisa">
+            <input type="text" placeholder="Pesquisar...">
+            <span class="lupa">🔍</span>
+        </div>
+    </header>
+
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Minhas Matérias</title>
+        <style>
+            /* ESTILOS APENAS PARA AS MATÉRIAS (não afeta o cabeçalho) */
+            .area-materias {
+                max-width: 1000px;
+                margin: 30px auto;
+                padding: 0 20px;
+            }
+
+            .materia {
+                background: white;
+                border-radius: 10px;
+                margin-bottom: 30px;
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+            }
+
+            .materia img {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                border-bottom: 3px solid #FF69B4;
+            }
+
+            .conteudo-materia {
+                padding: 20px;
+            }
+
+            .materia h2 {
+                color: #FF1493;
+                margin-top: 0;
+            }
+
+            .data {
+                color: #888;
+                font-size: 14px;
+                margin: 10px 0;
+            }
+
+            .texto-materia {
+                line-height: 1.6;
+            }
+        </style>
+    </head>
+
+
+<!-- CONTEÚDO PRINCIPAL (OPCIONAL) -->
+    <main style="padding: 20px;">
+        <h1>Bem-vindos ao Paris Fashion News!</h1>
+        <p>L'élégance en direct de Paris</p>
+
+
+
+
+
+
+
+
+
+    <body>
+        <!-- SEU CABEÇALHO EXISTENTE FICA AQUI -->
+
+
+        <!-- ÁREA DAS MATÉRIAS-->
+        <div class="area-materias">
+            <!-- MATÉRIA 1 -->
+            <div class="materia">
+                <img src="moda consciente.png" alt="Moda consciente">
+                <div class="conteudo-materia">
+                    <h2>Moda consciente</h2>
+                    <div class="data">27 de Julho de 2024</div>
+                    <div class="texto-materia">
+                        <p>A moda está passando por uma revolução silenciosa — e cada vez mais pessoas estão escolhendo
+                            peças que contam histórias de sustentabilidade e ética.</p>
+                        <p>Nesta matéria, exploramos como marcas e consumidores estão adotando práticas eco-friendly,
+                            desde o uso de tecidos reciclados até a valorização de produções locais. Inclui dicas para
+                            montar um guarda-roupa consciente sem perder o estilo.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- MATÉRIA 2 -->
+            <div class="materia">
+                <img src="moda 2025.png" alt="tendências 2025">
+                <div class="conteudo-materia">
+                    <h2>Tendências 2025: O que Vai Dominar as Ruas e Passarelas</h2>
+                    <div class="data">15 de Agosto de 2025</div>
+                    <div class="texto-materia">
+                        <p>Do minimalismo chic aos toques retrô, 2025 promete ser um ano em que o passado e o futuro se
+                            encontram nas combinações mais inesperadas.</p>
+                        <p>Analisamos as principais apostas dos estilistas para a próxima temporada: cores vibrantes,
+                            alfaiataria desconstruída, tecnologia wearable e a volta de estampas que marcaram os anos
+                            2000. Inclui sugestões de como adaptar as tendências ao seu dia a dia.:</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- MATÉRIA 3 (SEM IMAGEM) -->
+            <div class="materia">
+                <img src="estilo.png" alt="Estilo terceira idade">
+                <div class="conteudo-materia">
+                    <h2>Estilo Sem Idade: A Moda que Abraça Todas as Fases da Vida</h2>
+                    <div class="data">15 de Agosto de 2023</div>
+                    <div class="texto-materia">
+                        <p>Quem disse que existe idade certa para usar determinado look? A moda, cada vez mais, derruba
+                            barreiras e prova que estilo não tem prazo de validade.</p>
+                        <p>A matéria traz exemplos inspiradores de pessoas de diferentes idades que se expressam através
+                            da moda. Discute também como as marcas estão investindo em coleções inclusivas e sem
+                            rótulos, valorizando a autenticidade.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>
+
+
+
+    
+    </main>
+</body>
+
+</html>
